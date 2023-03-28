@@ -1,0 +1,41 @@
+.App {
+
+  font-family: sans-serif;
+  text-align: center;
+  background: hsla(33, 100%, 53%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 100%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 100%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 100%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#9DDDF4", GradientType=1 );
+  height: 100vh;
+}
+.user-name{
+  border: 1px solid white;
+  padding: 2px;
+  margin: 25px;
+}
+
+.sb-btn{
+  padding: 10px;
+  border-radius: 0.5;
+  border: none;
+}
